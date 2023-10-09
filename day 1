@@ -1,0 +1,16 @@
+
+package pkg100.days;
+
+public class Days {
+
+    public static void main(String[] args) {
+        System.out.println("Hello world!"); 
+        System.out.println("perkenalan diri");
+        System.out.println("Nama: Nurul Hikmawati");
+        System.out.println("Nim: D0223316");
+        System.out.println("Kelas: Informatika B 2023");
+        System.out.println("Alamat: Mamuju");
+        System.out.println("Asal Sekolah: SMA NEGERI 1 SAMPAGA");
+    }
+    
+}
