@@ -1,0 +1,29 @@
+
+public class days_3 {
+    public static void main(String[]args) {
+        String nama = "Nurul Hikmawati";
+        double tinggi = 149;
+        char gender = 'p';
+        byte berat = 45;
+        int umur = 18;
+          
+        // char adalah boolean
+        int tahunkelahiran = 2005;
+        int anak = 2;
+  
+        // mencetak kelayar variabel
+        System.out.println("Nama adalah: " + nama);
+        System.out.println("tinggi adalah: " + tinggi);
+        System.out.println("gender adalah: " + gender);
+        System.out.println("berat adalah: " + berat + "kg");
+        System.out.println("tahun kelahiran adalah: " + tahunkelahiran);
+        System.out.println("umur adalah: " + umur);
+        System.out.println("anak ke: " + anak + "dari 2 bersaudara"); 
+        
+               
+        
+        
+        
+    }
+}      
+   
