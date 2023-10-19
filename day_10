@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+public class day_10 {
+    // Percabangan IF/ELSE
+    public class CekKelulusan {
+        public static void main(String[]args) {
+             
+            // Membuat variabel dan Scanner
+            int nilai;
+            String nama;
+            Scanner scan = new Scanner(System.in);
+            
+            // mengambil input
+            System.out.println("Nama: ");
+           nama = scan.nextLine();
+            System.out.println("Nilai: ");
+            nilai = scan.nextInt();
+           
+            
+            // Mengecek apakah lulus atau tidak
+            if( nilai >= 70 ) {
+                System.out.println("Selamat " + nama + ", anda lulus!");                                       
+                        } else {
+                System.out.println("Maaf " + nama + ", anda gagal!");
+            }
+        }
+    
+}
+}
