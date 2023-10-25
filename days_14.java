@@ -1,4 +1,4 @@
-
+ 
 import java.util.Scanner;
 public class days_14 {
     public static void main(String[] args) {
