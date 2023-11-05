@@ -1,0 +1,26 @@
+public class Day27 {
+public static void main(String[]args){
+    int a = 5;
+    int b = 10;
+    
+    // Operator penugasan =
+    int c = a + b;
+    System.out.println("Nilai c setelah operasi penugasan =: " + c);
+    
+    // operator penugasan +=
+    a += b; 
+  System.out.println("Nilai a setelah operasi penugasan +=: " + a);
+  
+  //operator penugasan *=
+  a *= b;
+    System.out.println("Nilai a setelah operasi penugasan *=: " + a);
+    
+    // Operator penugasan /=
+    a /= b;
+    System.out.println("Nilai a setelah operasi penugasan /=: " + a);
+    
+    // operator penugasan %=
+    a %= b;
+    System.out.println("Nilai a setelah operasi penugasan %=: " + a);
+}    
+}
