@@ -3,12 +3,14 @@ public class Day42 {
         boolean a = true;
         boolean b = false;
         boolean c;
-        
+        /* konjungsi*/
         c = a&&b;
         System.out.println("true && false = " + c);
-        
+        /* disjungsi */
         c = a||b;
-        System.out.println("negasi. ! true = " + a);
+        System.out.println("true && false = " + c);
+        // negasi
+        System.out.println("Negasi ! true = " + a);
         }
         
     }
