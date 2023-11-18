@@ -1,0 +1,17 @@
+public class Day42 {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+        boolean c;
+        /* konjungsi */
+        c = a&&b;
+        System.out.println("true && false = " + c);
+        /* disjungsi */
+        c = a||b;
+        System.out.println("truee! false = " + c);
+        // negasi
+        System.out.println("Negasi, ! true= " + a);
+        }
+        
+    }
+
