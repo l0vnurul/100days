@@ -1,0 +1,15 @@
+public class Day56 {
+    public static void main(String[] args) {
+        // menginput nilai
+        int i = 0;
+        /* menggunakan perulangan while untuk melakukan perulangan bertahap hingga 
+        mencapai batas yang diperintahkan */
+        while ( i <= 10) {
+            // blok kode yang akan diulang
+            System.out.println("perulangan ke-" + i);
+            // nilai i
+            i++;
+        }
+    }
+    
+}
